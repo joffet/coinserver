@@ -8,5 +8,8 @@ Instructions:
 
 1. (clone the repo)
 2. run npm install
-3. node app.js
-4. This should be running at http://localhost:4000/
+3. create a .env file in the root directory and add the api key
+4. node app.js
+5. This should be running at http://localhost:4000/
+
+I will send the coin market key separately.
