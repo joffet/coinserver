@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 
 const app = express();
 app.use(express.json());
@@ -13,7 +14,7 @@ const getCoinData = async () => {
       {
         method: "GET",
         headers: {
-          "X-CMC_PRO_API_KEY": 
+          "X-CMC_PRO_API_KEY": process.env.COIN_KEY,
         },
       }
     );
